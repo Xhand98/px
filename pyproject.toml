@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "asyncio>=4.0.0",
+    "openai>=2.8.1",
+    "python-dotenv>=1.2.1",
+    "rich>=14.2.0",
+]
+
+[project.scripts]
+px = "px.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

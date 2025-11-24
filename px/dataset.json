@@ -1,0 +1,50 @@
+{
+  "ver directorios": "ls",
+  "listar archivos ocultos": "ls -a",
+  "mostrar permisos de archivos": "ls -l",
+  "entrar a descargas": "cd ~/Downloads",
+  "ir a la carpeta anterior": "cd ..",
+  "volver al inicio": "cd ~",
+  "crear carpeta nueva llamada proyectos": "mkdir proyectos",
+  "borrar la carpeta test": "rm -r test",
+  "buscar archivos que se llamen config": "find . -name \"config\"",
+
+  "crear archivo vacío llamado notas.txt": "touch notas.txt",
+  "ver el contenido de notas.txt": "cat notas.txt",
+  "editar notas.txt": "nano notas.txt",
+  "copiar notas.txt a documentos": "cp notas.txt ~/Documentos",
+  "mover imagen.jpg al escritorio": "mv imagen.jpg ~/Desktop",
+  "borrar log.txt": "rm log.txt",
+
+  "ver uso del cpu": "top",
+  "mostrar memoria usada": "free -h",
+  "mostrar espacio en disco": "df -h",
+  "ver mi ip": "ip a",
+  "ver puertos abiertos": "ss -tulnp",
+
+  "hacer ping a google": "ping google.com",
+  "probar si hay internet": "ping 1.1.1.1",
+  "descargar archivo desde una url": "wget <url>",
+  "ver conexiones activas": "netstat -tulnp",
+
+  "ejecutar mi programa en python": "python main.py",
+  "crear un proyecto node": "npm init",
+  "instalar dependencias": "npm install",
+  "correr mi servidor": "npm run dev",
+  "hacer git commit": "git commit -m \"mensaje\"",
+  "subir cambios al repo": "git push",
+  "ver historial de cambios": "git log",
+
+  "ver contenedores docker": "docker ps",
+  "ver todos los contenedores docker": "docker ps -a",
+  "detener contenedor web": "docker stop web",
+  "iniciar contenedor web": "docker start web",
+  "eliminar contenedor viejo": "docker rm <id>",
+  "construir imagen": "docker build -t nombre .",
+
+  "limpiar pantalla": "clear",
+  "ver fecha y hora": "date",
+  "buscar texto en archivos": "grep -r \"texto\" .",
+  "ver procesos": "ps aux",
+  "matar proceso": "kill <pid>"
+}
