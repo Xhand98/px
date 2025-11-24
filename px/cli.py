@@ -67,3 +67,7 @@ async def main():
     # print(f"Se va a ejecutar: {response.choices[0].message.content}")
     
     subprocess.run(response.choices[0].message.content, shell=True)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
